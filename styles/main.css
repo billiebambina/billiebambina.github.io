@@ -19,3 +19,19 @@ p {
 img {
     margin-left: 5%; box-shadow: 10px 10px 5px grey;
 }
+.navbar {
+    background-color: white;
+    min-height: 3.25rem;
+    position: relative;
+    z-index: 30;
+}
+
+.navbar.is-black {
+    background-color: #0a0a0a;
+    color: white;
+  }
+
+.navbar.text {
+    font: Arial; font-style: normal; font-variant: small-caps; font-weight: bold; font-size: 11pt; font: red;
+}
+.border {border-color: azure; border-bottom-width: 5em; border-left-width: 5em; border-right-width: 5em; border-top-width: 5em;}
