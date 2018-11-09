@@ -1,31 +1,118 @@
-<!DOCTYPE html>
+<!DOCTYPE <!DOCTYPE html>
 <html lang = "en-NZ">
-  <head>
-    <title>My blog</title>
-    <link rel="stylesheet" type="text/css" href="styles/bulma.css">
-  </head>
-  <body>
-    <div>
-      <h1>Kia ora Taiao! (Hello World!)</h1> 
-      <p> This is the begining of my website home page.</p>
-     <p> It will eventually contain a list of links to all my blogs. </p>
-    </div>
-    <div> <br>
-      <img src="images/billieastough.png" alt="a chibi of billie created from app Unniedoll" width="30%" height="30%">
-      <br> <p>Image created using Unniedoll, an android app.</p>
-    </div>
-    <div>
-    <h2> Navigation Links</h2>
-    <h3>Reflections</h3>
-    <ol>
-      <ol><a href="#">Sprint one</a></ol>
-      <ol><a href="#">Sprint two</a></ol>
-      <ol><a href="#">Sprint three</a></ol>
-      <ol><a href="#">Sprint four</a></ol>
-      <ol><a href="#">Sprint five</a></ol>
-    </ol>
-    <h3>Some other title</h3>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;           
+            margin-bottom: 1em;
+            margin-left: 1em;
+            margin-right: 1em;
+            background-color: rgb(44, 48, 45);
+            color: #fff;
+            }
+        
+        nav {
+            width: 100%;
+            background-color: rgb(153, 0, 77);   
+            border-radius: 5px;                            
+        }
+
+        nav li {            
+            margin-right: 20px;            
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .box {
+            border-style: solid;
+            border-color: rgb(153, 0, 77);
+            border-width: .5mm;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 25px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        .box1 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .box2 {
+            border-radius: 10px;
+            background-color: rgba(63, 68, 64, 0.363);
+            padding: 20px;  
+        }
+
+        h2 {
+            text-align: center;
+        }
+        
+        p {
+            text-align: justify; 
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        a {
+            color:rgb(153, 0, 77);           
+        }
+
+        li a {
+            color: #fff;           
+        }
+
+        button {
+            margin-left: 20px;
+            position: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav>        
+        <li><a href="#">Home</a></li>
+    </nav>
+
+    <h1 class="box">Home Page!</h1>
+
+    <div class="box1">
+        <h2>konichiwa sekai.</h2>
+        <p>This is bille. <br>This is where I will be adding links to sprints and other relevant places.</p>
     </div>
 
-  </body>
+    <div class="box2">
+        <p>I am more text</p>
+        <p>yep im more text.</p>
+    </div>
+<br>
+    <div class="box2">
+        <h2>Sprints?</h2>
+        <button>Technical</button>
+        <button>Core</button>
+    </div>
+<br>
+    <div class="box2">
+        <h2><a href="#">Competency List</a></h2>
+    </div>
+<br>
+    <div class="box2">
+        <h2><a href="#">References</a></h2>
+    </div>
+    
+</body>
+<footer>
+
+</footer>
 </html>
