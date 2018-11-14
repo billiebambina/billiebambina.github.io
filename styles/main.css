@@ -23,6 +23,10 @@ nav li {
     padding-bottom: 10px;
 }
 
+summary {
+    font-size: 10px;
+}
+
 .box {
     border-style: solid;
     border-color: rgb(153, 0, 77);
@@ -42,7 +46,7 @@ nav li {
 .box2 {
     border-radius: 10px;
     background-color: rgba(63, 68, 64, 0.363);
-    padding: 5px 20px 5px 20px; 
+    padding: 30px 20px 5px 20px; 
     margin-left: auto;
     width: auto;    
 }
